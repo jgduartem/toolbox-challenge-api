@@ -35,7 +35,7 @@ The server will reload if you make edits.<br />
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.
+The test runner is launched. Integration tests against the external API are mocked using Nock to ensure they are isolated and independent of external availability for testing.
 
 ### `npm run start`
 
